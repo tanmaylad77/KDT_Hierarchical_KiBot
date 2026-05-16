@@ -557,8 +557,8 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: Project Name
-  BOARD_NAME: Board Name
+  PROJECT_NAME: LE_V2
+  BOARD_NAME: LE_BMS_A_V2
 
   COMPANY: Company Name
   DESIGNER: Author

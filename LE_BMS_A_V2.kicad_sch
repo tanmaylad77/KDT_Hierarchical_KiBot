@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
 	(paper "A3")
 	(title_block
@@ -10,268 +10,6 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(polyline
-		(pts
-			(xy 45.72 73.66) (xy 106.68 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "0b94fcf5-1891-4585-9535-4e190090991a")
-	)
-	(polyline
-		(pts
-			(xy 243.84 73.66) (xy 304.8 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "0cbe4bf1-21dd-46d5-8d33-b4a3f92e1064")
-	)
-	(polyline
-		(pts
-			(xy 294.64 181.61) (xy 297.18 187.96)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "3799b615-bea5-4cb3-b9a2-2785865702a8")
-	)
-	(polyline
-		(pts
-			(xy 144.78 73.66) (xy 205.74 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "47e4f34a-6663-4f9a-acb3-7cf4eb159994")
-	)
-	(polyline
-		(pts
-			(xy 215.9 73.66) (xy 233.68 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "65b7519a-f480-42a3-926a-07bd8b620575")
-	)
-	(polyline
-		(pts
-			(xy 116.84 73.66) (xy 134.62 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "722439e6-abb9-4522-8594-b3181b0d9f4e")
-	)
-	(polyline
-		(pts
-			(xy 314.96 73.66) (xy 332.74 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "936e6872-8058-45c0-a0bd-58f432e24b1a")
-	)
-	(polyline
-		(pts
-			(xy 17.78 73.66) (xy 35.56 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "a3703ec8-87d6-4c32-a8ca-249d86e6160c")
-	)
-	(polyline
-		(pts
-			(xy 297.18 181.61) (xy 294.64 187.96)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d1a06d73-e78a-446f-b9d8-0d5c726588d3")
-	)
-	(polyline
-		(pts
-			(xy 342.9 73.66) (xy 403.86 73.66)
-		)
-		(stroke
-			(width 1)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "dee96870-b977-4804-a805-318fe8afe5f2")
-	)
-	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
-		(exclude_from_sim no)
-		(at 96.52 258.445 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "14407e09-ee6c-4b22-86d1-36d73a33e664")
-	)
-	(text_box "DESIGN NOTE:\nExample text for debug notes."
-		(exclude_from_sim no)
-		(at 61.595 258.445 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "1499d9a9-9f29-4929-8df7-74d84823ddfb")
-	)
-	(text_box "DESIGN NOTE:\nExample text for critical design notes."
-		(exclude_from_sim no)
-		(at 131.445 258.445 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "1c311692-d683-4cdf-ac31-77bcdd4c4b39")
-	)
-	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
-		(exclude_from_sim no)
-		(at 166.37 258.445 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "2efa106d-749e-4c2c-a05c-8429f99997c2")
-	)
-	(text_box "kibot_image_png_3d_viewer_angled_bottom"
-		(exclude_from_sim no)
-		(at 123.19 166.37 0)
-		(size 69.85 78.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "33c3f6da-ba9e-4d58-9257-d85394a72b7b")
-	)
-	(text_box "DESIGN NOTE:\nExample text for informational design notes."
-		(exclude_from_sim no)
-		(at 26.67 258.445 0)
-		(size 30.48 20.32)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "5018a9e1-9f76-429f-8094-85eee2236cda")
-	)
-	(text_box "kibot_image_png_3d_viewer_angled_top"
-		(exclude_from_sim no)
-		(at 22.86 166.37 0)
-		(size 69.85 78.74)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left top)
-		)
-		(uuid "62b01781-ae4a-4e68-9a17-1436f3c897e5")
-	)
 	(text "Variant: ${VARIANT}"
 		(exclude_from_sim no)
 		(at 25.4 58.42 0)
@@ -1721,9 +1459,282 @@
 		)
 		(uuid "faea8a5f-3a8f-49cb-9832-569be941b06b")
 	)
+	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
+		(exclude_from_sim no)
+		(at 96.52 258.445 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "14407e09-ee6c-4b22-86d1-36d73a33e664")
+	)
+	(text_box "DESIGN NOTE:\nExample text for debug notes."
+		(exclude_from_sim no)
+		(at 61.595 258.445 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1499d9a9-9f29-4929-8df7-74d84823ddfb")
+	)
+	(text_box "DESIGN NOTE:\nExample text for critical design notes."
+		(exclude_from_sim no)
+		(at 131.445 258.445 0)
+		(size 30.48 20.32)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1c311692-d683-4cdf-ac31-77bcdd4c4b39")
+	)
+	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
+		(exclude_from_sim no)
+		(at 166.37 258.445 0)
+		(size 30.48 20.32)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "2efa106d-749e-4c2c-a05c-8429f99997c2")
+	)
+	(text_box "kibot_image_png_3d_viewer_angled_bottom"
+		(exclude_from_sim no)
+		(at 123.19 166.37 0)
+		(size 69.85 78.74)
+		(margins 1.905 1.905 1.905 1.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "33c3f6da-ba9e-4d58-9257-d85394a72b7b")
+	)
+	(text_box "DESIGN NOTE:\nExample text for informational design notes."
+		(exclude_from_sim no)
+		(at 26.67 258.445 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5018a9e1-9f76-429f-8094-85eee2236cda")
+	)
+	(text_box "kibot_image_png_3d_viewer_angled_top"
+		(exclude_from_sim no)
+		(at 22.86 166.37 0)
+		(size 69.85 78.74)
+		(margins 1.905 1.905 1.905 1.905)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "62b01781-ae4a-4e68-9a17-1436f3c897e5")
+	)
+	(polyline
+		(pts
+			(xy 45.72 73.66) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "0b94fcf5-1891-4585-9535-4e190090991a")
+	)
+	(polyline
+		(pts
+			(xy 243.84 73.66) (xy 304.8 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "0cbe4bf1-21dd-46d5-8d33-b4a3f92e1064")
+	)
+	(polyline
+		(pts
+			(xy 294.64 181.61) (xy 297.18 187.96)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3799b615-bea5-4cb3-b9a2-2785865702a8")
+	)
+	(polyline
+		(pts
+			(xy 144.78 73.66) (xy 205.74 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "47e4f34a-6663-4f9a-acb3-7cf4eb159994")
+	)
+	(polyline
+		(pts
+			(xy 215.9 73.66) (xy 233.68 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "65b7519a-f480-42a3-926a-07bd8b620575")
+	)
+	(polyline
+		(pts
+			(xy 116.84 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "722439e6-abb9-4522-8594-b3181b0d9f4e")
+	)
+	(polyline
+		(pts
+			(xy 314.96 73.66) (xy 332.74 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "936e6872-8058-45c0-a0bd-58f432e24b1a")
+	)
+	(polyline
+		(pts
+			(xy 17.78 73.66) (xy 35.56 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "a3703ec8-87d6-4c32-a8ca-249d86e6160c")
+	)
+	(polyline
+		(pts
+			(xy 297.18 181.61) (xy 294.64 187.96)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d1a06d73-e78a-446f-b9d8-0d5c726588d3")
+	)
+	(polyline
+		(pts
+			(xy 342.9 73.66) (xy 403.86 73.66)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "dee96870-b977-4804-a805-318fe8afe5f2")
+	)
 	(sheet
 		(at 340.36 313.69)
 		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1755,7 +1766,7 @@
 			)
 		)
 		(instances
-			(project "KDT_Hierarchical_KiBot"
+			(project "LE_BMS_A_V2"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
 					(page "6")
 				)
@@ -1765,6 +1776,10 @@
 	(sheet
 		(at 340.36 302.26)
 		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0)
 			(type solid)
@@ -1796,7 +1811,7 @@
 			)
 		)
 		(instances
-			(project "KDT_Hierarchical_KiBot"
+			(project "LE_BMS_A_V2"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
 					(page "7")
 				)
@@ -1806,6 +1821,10 @@
 	(sheet
 		(at 299.72 302.26)
 		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1837,7 +1856,7 @@
 			)
 		)
 		(instances
-			(project "KDT_Hierarchical_KiBot"
+			(project "LE_BMS_A_V2"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
 					(page "2")
 				)
@@ -1847,6 +1866,10 @@
 	(sheet
 		(at 299.72 313.69)
 		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1878,7 +1901,7 @@
 			)
 		)
 		(instances
-			(project "KDT_Hierarchical_KiBot"
+			(project "LE_BMS_A_V2"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
 					(page "3")
 				)
@@ -1888,6 +1911,87 @@
 	(sheet_instances
 		(path "/"
 			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "KDT_Template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WA0Ho0gABYkcSHwth4U7IJ1nCBN1lsz6Uw6WFQlBRuBnSQ6h05xWHw8+gJlAGMAaAChS5e+
+				td1jVfmLFm/wtZj3zppQ3p7O1XI6vh1txczmfGjVeUn37M0lPb6hVa/pf7rjLv0mAACBkGj/KC9D
+				lal03nfzmTBUuc7b6sffIQAClmHOiVFJHec76h8RAIERRMpsLHhBhNJ1DjO4CbPGrXpRq8JWzJ6T
+				vvPxxftV/qDlUCnlVfDClRKgBlprk/6NH3QT5+5R9KnU52ai1aVGo5ETIwBw5kyv1Mccqmblu/Rb
+				s6vEKnVZA5appEF8qW/7oXfpG/z6sc7gDgX9pE9x37bIcJZK5TEx0Xa+wf9kTcGwbReHw6xXYaa6
+				yaPyuHDeROB8xzt6D6MaPVyTToplVKY8jrJRZvanW/BsVj8Yskvj5FqpVYX26o3KesnpB8MBUW2u
+				739PpfKNXxQzOF2j06UHAYsaDJnE6BwLGRf5Hp9nW0rK8W2Uj+McleyqWbjv9+FlFLLMwtsmCS3z
+				KTjIxMN0G8WEbUjMCi31ddvD2y5Zlm1sr7aXjbY5Qaeck5NsHRd5MOj0uK7xqHAL3LnjU6lpWurw
+				dZxEMlHI6dQQgPKo8aUzJTKSlKSQNgNQhEiRqao6EiDREIZEEAqBGBIiQFACikKUYEPECIgRLEQo
+				IL0BysCaG5al2Dn6A5lapD7aWRtaCff0JqirKcVRhCg9CJpaj5AtY627pjU0XLXW+4GvZxo1M3vb
+				bcQogItqHmVSmYNuBwuUkwPlgYGTGxjdbro4vUFtwTXKkAbMZUTaT88z374xQXJs4Wyb2vHFcU/R
+				yqUht3KEzuaunJrSgnikUOVH2Omx9kZLk16hmhaghe+t3yiGXNC6HeKyoOnvkQ0UBtNvfdvwb+V6
+				58fy8tvl0ySkHZzfBh6G6lvv5tLJ925ZMsJEHFERipadoLDH+Y97nhZrIyWCzw7UzBfdVEidCA7r
+				TRS37ZheCF81NP+c/7wKc3SPoppDRdKljf5nO7XG/E5R13FRz5k+k2Bm78L6Cs7dItPt8WTP3EJw
+				0LoRzxahsTvj4BamDvYJfo/sWJzPFBuL+FCWbWx/z2Yj53pcLjfO7xtqViaC8BaXfPHR+VSA20Rg
+				mlM2nAmL3W+cSQpNJwAyWUqoKduAEOBEJvFFNyfRjd/qsPb086X0DWgA40atnXEmhbAmw4YSgVIi
+				Abc3uq8FeQXd06SJkXhjs5DGVE5NNUB8xecHoDrAsl0IF8RBXyndVzNgS1i+lzk5TA4EaSZi8b30
+				o0mrNO8U8Luh3L2SerkI+wMODAnRIqFMAIFWSwZLJjhJVyQhZMFbMBy+LxuwlL+niBqjruuJgpsA
+				ACGxMP4hkAFUjMGqBnHVH7+/mS69jaW4Cg==|
+			)
+			(checksum "81E50F93283E7E130AD4AE74A6B07C53")
+		)
+		(file
+			(name "KDT_Template_GIT.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCOH90hADbldCEA0zz8vwV4dA49qrdgbG9UWNWEsQ8RBFilMbXZ//+TKl5pAGcAawB8j718
+				+vQ7v/2UpMfm1X3E3Ny978pmd8wlc1pf5wu/ptgtuJyuStHHdDJ7sM7ldFH1cSif/YM7AQAIbDgd
+				n5TKJFHiu2cSi+VGer775VjjCwEQmLJaa2Wpfb3zyXGHAAicGo9I3jFrCAH1MVufPn2+yz2S5a78
+				dFF2kvQ19/ce7P2JzRxKj8drsZRSqvAFaiQQDTjnII67xuODLLmfnMxlv24gez2tVCq0VgSA3pb6
+				l/1zb6Qqff/gXukXrS779ApMoA8fdbbfL97gp09qzLEOIy30uMcDgqD1bVbg2INHXLglRE4Cgl2t
+				zOt9H3Fm80hV9ZvAbGHkQTqwm3AfparVO5+5g7/KYlajqq22siwdfVxki1QLh3LhrXq9llkUZtnX
+				ZSepvJlvll4Ura9lmkEi83eMMaD0XWPT3GOBCUOAIgPcGGLYLTQNw5yX8T0vbJZZtLL15BxhF2L6
+				jYwY4RYJOY4BWtRllT2HuMyKgiUmvg1ywMQQwTUgH8XbIiB9N+ZGYKPQ27pvm1iW1fXN/E5IfveB
+				1so9No9zdApb68d5iw7kEvqST2wphmEBgP6o4SVDJTIjKUkhbQZQhAjJWJEdEgDBEAZFEAxhGJZC
+				EAzBKAYJ44wRECJoiFBA6wHhizrKqI2WoRGqJst81kW3E7qPTqq+VxKtbeMJC1W8PBrl5rVIdXR3
+				fbWSaYOeQK42nKPAMXrQnlrHIVvD2uamNJqrapdu2IjRqFedDa/rYYhRjIsKv8kkwUHYwRrmzIEy
+				x3jkBh/9dS1+990fuIQYsiQzu0jjib3lu9fEGcfbTm9qf26AfYrwXHBwyw+drVyLsaTFskuBxI/k
+				oKeJFy3zvOIwbbEWPa6fOEZgmhbCEPaia/5AWVsIvf0W/OGnkyve17TyW8ggGkLScP5G8ADr2/Pm
+				0tykbcl+ZFCkWqSmZVMKudto9Y6tibFrJCTiTSfUxvafVIicgJTVHNVGRKZALL9Gqs+OCq+dG6dH
+				JzmRSXo4oyMtTnlmrl/prZE4TukAy9cYy+h3cACCxbDQuzle6c1YBqzKbGDHC32YnSWNhamDuwwF
+				RBp2m5E1lIPIzlWhZcddNe4fxhmuzRknOohgSepQ3q2F8HoDfoAY2TOFhbQIE+IW3tCTIDSlYF4y
+				lnQjLQshsBPQxB/jnEk35EMHtySbLzk+F8MRbmw7jMhcOdacNnQOdNAJAI/Rls5ICgJvgonReU+r
+				kDYqB5pqGPM+zs+NOsilXcAr0JGGUqIPechLGJGXWZHNLjt8kKmKv6CjInHBhBPAvq3h9ruQ9xVh
+				c8CPcRBhCS0DuChaYtg2iHcpxN7Dfns7Uwnwgg2I8XfHpGGpMxhCs0nmwoipez/UY7nqU2GZgs/C
+				D78HSbu2jaWvCg==|
+			)
+			(checksum "DB3DC728C2AEB6FD5D8E1CEB972FF7A3")
+		)
+		(file
+			(name "KDT_Template_PCB_GIT_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDCIP0jAMYnfCHw1DxoQdkhu4RFtrkG2HCGNOHR9p0W2PEKInuKw+J2chpvAG8AcwD46Vs0
+				5ljzPXby6dPv/HZTkh6XV/cR83L3viuc3TOYzGl9nTH8lmK/YHK6KkU/0y35g3Ump4uqj0XZ7CDc
+				CQBAgNPp2KSUJokS3z1bsEhypOe7X441xhAAgUmrtVaW2tc7mxx7CICAufmIljvmDSFbQbLk7xhn
+				ItJ3jctyj/UzW58+fb7JPVrIXfnpouwk6Vtu8D/4exOXOZQej/diKaUU9hh1CkYDznmI467x+KFL
+				7mZHc9mvXMheTyuVCq0VAaD3pf5l39wcqUrfQbhX+kWryz69AlMIxEed7feLOQG1c3Bf1/AStlaw
+				+xRepENoTDaxpVmWnVv4dQ7H40DrWw3j+IPPLuQQYieJRLxalff7PmLN5pCq6heRWez8Hl7Em3Qg
+				parVO5vZg8HKZnajqq22siw9wQ7CQaqFRRl7q16/aRaVXfZ12Ukib+acpRdF629agSkz7+J7Vmxb
+				ZjhAxEWEW4ihp8CspaqMVmq76ltbYZRWgR2Fa1hvaXXDbGfciD+7RuiFo8FrmkUrW81Mv5BzEXKQ
+				sOsWEYu6LLLnEJM5gVkiAuQehkwMDx3jAVI+DhLSl1PuQ3aGH+eB3MSyrK5v5ndi4XcbaA2BDqjh
+				JUMlMpKkIIW0GZEMIc4wKiX1EgAhEQRFEAxhGJZCEI6AQQgJCjZEQIjQjFAw6gEHSFYVteZW4Znk
+				xwDSFAI2v8ycBXY1tdDQtx4BFFDSXJdE7uGPaTzvN/IYwyB0jKCGkBIUPT+VJTEfaaE08MXyHktH
+				Kx3tq3kxYi0tTUKthLRlTqArpt6gkBs/nE/Fdcy+0Ja4Koi2QrZolxi3irSCLbvbVxhjXiX5Kb6B
+				Y9LDxgHYgQXj48CAY7zKDTYSs1+Q3bIfOF8dUo05UEScU/L5bjZZiWP0Z3JqsZdsP4WbCzpuiY7O
+				Ei4tLGmOZCnU+7EOevi86P/nfQBTjLUg4/q5MYZpWgND0G9B82fKpoVJ7bf+D/7UucB9Q5XflawG
+				hJiH82vgIVbfyjeX4oK2ZfEIcpFoEYmWpik0bz3VO55GilwjJElr2kKNYtekcuXEUlYHqzbgTLFY
+				9RomfQY0vFhuTBvVysVO0n8Y/ZvitHPm34pALYijQTVYvt9Y5n0HdyHoDAuXNMcbENOggG2YzRNt
+				kUZmJ5VoEeAwmjzAkFa06VoXNAjGudooe8XV737d23AFn3HaQdTPpw5FFy0EgzaQDwDJH9M/pFeY
+				1Lf2hp6U0t3a4nIr6Zi0FNKwE4pJ3D+H1g0V0YEmqeYrg/7F8IAbEv5FZIY41twZOgGd6wR4xKj8
+				7k4KQrwppaPM3QFCS1C5JNXtzZY7P2fVwa64uCII8w7ERB/kIJcwBy/zXlx5aQCQoIr/obNCDmIr
+				zs99D+TWWZbNLELvgIPpQLgnqigQ2lrgrEjEOR7i9bDR3g4KPPh0A2D4mzMpDHVRQ+RtwLyQZErQ
+				D/JYUdUgLE9Qm/Ced7LSDmzjuFYF|
+			)
+			(checksum "A70B27D8164F74565F9BF292A8849445")
 		)
 	)
 )

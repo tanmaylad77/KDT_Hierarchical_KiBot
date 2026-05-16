@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "10155435-00011LF")(type "KiCad")(uri "${KIPRJMOD}/parts/10155435-00011LF/10155435-00011LF.kicad_sym")(options "")(descr ""))
+  (lib (name "ABM3B-8_000MHZ-10-1-U-T")(type "KiCad")(uri "${KIPRJMOD}/parts/ABM3B-8.000MHZ-10-1-U-T/ABM3B-8_000MHZ-10-1-U-T.kicad_sym")(options "")(descr ""))
+  (lib (name "RJHSE5380")(type "KiCad")(uri "${KIPRJMOD}/parts/RJHSE5380/RJHSE5380.kicad_sym")(options "")(descr ""))
+  (lib (name "EVQ-P2P02W")(type "KiCad")(uri "${KIPRJMOD}/parts/EVQ-P2P02W/EVQ-P2P02W.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV1117LV33DCYT")(type "KiCad")(uri "${KIPRJMOD}/parts/TLV1117LV33DCYT/TLV1117LV33DCYT.kicad_sym")(options "")(descr ""))
+  (lib (name "RFM-0505S")(type "KiCad")(uri "${KIPRJMOD}/parts/RFM-0505S/RFM-0505S.kicad_sym")(options "")(descr ""))
+  (lib (name "691313510002")(type "KiCad")(uri "${KIPRJMOD}/parts/691313510002/691313510002.kicad_sym")(options "")(descr ""))
+  (lib (name "691382010012")(type "KiCad")(uri "${KIPRJMOD}/parts/691382010012/691382010012.kicad_sym")(options "")(descr ""))
+)
