@@ -1,0 +1,4 @@
+Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
+2,0.65mm (25.59mils),NPTH,Round,"L1 (Sig, PWR) - L6 (Sig, PWR)",Mechanical
+2,3.30mm (129.92mils),NPTH,Round,"L1 (Sig, PWR) - L6 (Sig, PWR)",Mechanical
+Total 4,,,,,
