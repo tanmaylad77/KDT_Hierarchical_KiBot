@@ -8,4 +8,6 @@
   (lib (name "RFM-0505S")(type "KiCad")(uri "${KIPRJMOD}/parts/RFM-0505S/RFM-0505S.kicad_sym")(options "")(descr ""))
   (lib (name "691313510002")(type "KiCad")(uri "${KIPRJMOD}/parts/691313510002/691313510002.kicad_sym")(options "")(descr ""))
   (lib (name "691382010012")(type "KiCad")(uri "${KIPRJMOD}/parts/691382010012/691382010012.kicad_sym")(options "")(descr ""))
+  (lib (name "691382010006")(type "KiCad")(uri "${KIPRJMOD}/parts/691382010006/691382010006.kicad_sym")(options "")(descr ""))
+  (lib (name "CS_logo_sq")(type "KiCad")(uri "${KIPRJMOD}/parts/CS_logo_sq/CS_logo_sq.kicad_sym")(options "")(descr ""))
 )
