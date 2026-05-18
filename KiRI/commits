@@ -1,4 +1,4 @@
-_local_|2026-05-16|root|Local changes not committed|False|True
+_local_|2026-05-18|root|Local changes not committed|False|True
+ba5b21d|2026-05-18|Tanmay Lad|Finished most routing, final checks to be done|True|True
 409ff67|2026-05-16|Tanmay Lad|Moved the PCB a bit.|False|True
 5f6d398|2026-05-16|Tanmay Lad|Initial commit: Moved over previous design and added isolation to CAN bus.|True|True
-59e7267|2025-01-19|Vincent Nguyen|[Added] Initial files for template|True|False
