@@ -19,8 +19,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 3.81 3.1116 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,8 +28,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "CR2032"
+				(at 3.81 0.5716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -37,7 +37,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -146,7 +146,7 @@
 				)
 			)
 			(symbol "Battery_Cell_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -1098,6 +1098,10 @@
 		(at 166.37 92.71)
 		(uuid "23b21dd0-cb2f-46b2-921d-8689b0c5d746")
 	)
+	(no_connect
+		(at 137.16 102.87)
+		(uuid "8263f5a6-8ec1-4f52-bb8b-f68cc0660cc3")
+	)
 	(wire
 		(pts
 			(xy 144.78 85.09) (xy 151.13 85.09)
@@ -1327,16 +1331,6 @@
 			(justify left bottom)
 		)
 		(uuid "16f403af-0d34-4da3-b344-9155a1941f9f")
-	)
-	(label "RTC_RST"
-		(at 137.16 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1cb0590f-fee8-4d59-8254-06b7489a0fff")
 	)
 	(label "I2C_SDA"
 		(at 133.35 95.25 0)

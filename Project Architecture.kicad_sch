@@ -940,26 +940,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN1_H" bidirectional
-			(at 266.7 149.86 0)
-			(uuid "65e1558e-530b-43bc-8abb-e7db3ae0e998")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN1_L" bidirectional
-			(at 266.7 152.4 0)
-			(uuid "d5fff538-f93c-4874-a95f-a4c5f4b23c86")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAN1_RXD" bidirectional
 			(at 229.87 149.86 180)
 			(uuid "540b7652-8e29-451f-84a1-f9ad3e4afee3")
@@ -990,16 +970,6 @@
 				(justify left)
 			)
 		)
-		(pin "CAN2_H" bidirectional
-			(at 266.7 158.75 0)
-			(uuid "032a8f43-6201-4f6f-8faf-703819c9784c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAN2_INT" output
 			(at 229.87 168.91 180)
 			(uuid "c3974898-8113-48b4-be04-ffedc243c151")
@@ -1008,16 +978,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "CAN2_L" bidirectional
-			(at 266.7 161.29 0)
-			(uuid "d2df22cc-00dd-4cde-bb64-a727f23f606a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "CAN2_MISO" output
