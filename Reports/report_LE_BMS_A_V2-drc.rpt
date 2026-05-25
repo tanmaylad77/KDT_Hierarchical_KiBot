@@ -1,0 +1,325 @@
+** Drc report for LE_BMS_A_V2.kicad_pcb **
+** Created on 2026-05-25T12:13:50+0000 **
+
+** Found 87 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(193.15 mm, 95.61 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(113.15 mm, 50.61 mm): Segment on Edge.Cuts
+    @(179.15 mm, 101.61 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(193.15 mm, 94.61 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(113.15 mm, 50.61 mm): Segment on Edge.Cuts
+    @(149.15 mm, 102.61 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(183.9 mm, 96.52 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(196.1 mm, 108.88 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(168.74 mm, 129.51 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(171.05 mm, 123.4 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(171.55 mm, 128.9 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(173.55 mm, 123.4 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(174.05 mm, 128.9 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(176.05 mm, 123.4 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(176.55 mm, 128.9 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(178.55 mm, 123.4 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(179.05 mm, 128.9 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(181.36 mm, 129.51 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(189.15 mm, 46.61 mm): Segment on Edge.Cuts
+    @(139.04 mm, 45.8 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(189.15 mm, 46.61 mm): Segment on Edge.Cuts
+    @(147.98 mm, 45.8 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(125.195 mm, 129.46 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(141.705 mm, 129.46 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(153.14 mm, 129.51 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(155.45 mm, 123.4 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(155.95 mm, 128.9 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(157.95 mm, 123.4 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(158.45 mm, 128.9 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(160.45 mm, 123.4 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(160.95 mm, 128.9 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(162.95 mm, 123.4 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(163.45 mm, 128.9 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(117.15 mm, 126.61 mm): Segment on Edge.Cuts
+    @(165.76 mm, 129.51 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(185.8 mm, 56.3 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(196.1 mm, 73.5 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(185.8 mm, 75.5 mm): Segment of J7 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning
+    @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
+    @(196.1 mm, 92.7 mm): Segment of J7 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(132.575 mm, 56.35 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'SOP-8_6.62x9.15mm_P2.54mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(160.0675 mm, 102.585 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(150.176802 mm, 54.8 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(138.75 mm, 99.51 mm): Footprint C18
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(119.7175 mm, 85.625 mm): Footprint C23
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(125.525 mm, 57.825 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(152.0 mm, 79.475 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(133.25 mm, 109.41 mm): Footprint C12
+[lib_footprint_mismatch]: Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(118.15 mm, 90.4 mm): Footprint U6
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(153.95 mm, 89.975 mm): Footprint C14
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(166.05 mm, 97.21 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(140.835 mm, 55.383198 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(145.65 mm, 115.01 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(182.95 mm, 52.0625 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(145.635 mm, 55.383198 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(186.25 mm, 113.61 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal' does not match copy in library 'Connector_JST'.
+    ; warning
+    @(171.3 mm, 120.2 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(117.945 mm, 83.925 mm): Footprint R11
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(145.75 mm, 89.975 mm): Footprint C13
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(168.775 mm, 87.7 mm): Footprint C19
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(175.0375 mm, 105.31 mm): Footprint C15
+[lib_footprint_mismatch]: Footprint 'ESP32-S3-WROOM-2' does not match copy in library 'RF_Module'.
+    ; warning
+    @(162.86 mm, 59.36 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(145.65 mm, 113.41 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'SOP-8_6.62x9.15mm_P2.54mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(130.3 mm, 102.51 mm): Footprint U4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(175.1 mm, 99.65 mm): Footprint C17
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(122.255 mm, 96.525 mm): Footprint R10
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(186.25 mm, 115.21 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(132.575 mm, 57.85 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(162.95 mm, 109.61 mm): Footprint C11
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(145.65 mm, 116.61 mm): Footprint C10
+[lib_footprint_mismatch]: Footprint 'JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal' does not match copy in library 'Connector_JST'.
+    ; warning
+    @(155.7 mm, 120.2 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(116.645 mm, 95.325 mm): Footprint C22
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(186.25 mm, 116.81 mm): Footprint C9
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(151.876802 mm, 54.8 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(138.85 mm, 104.61 mm): Footprint C20
+[lib_footprint_mismatch]: Footprint 'TSSOP-20_4.4x6.5mm_P0.65mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(149.9875 mm, 84.0 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(136.05 mm, 97.11 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(170.575 mm, 92.7 mm): Footprint C16
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(167.075 mm, 87.7 mm): Footprint C21
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(122.255 mm, 94.925 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(125.525 mm, 56.325 mm): Footprint C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(179.15 mm, 101.61 mm): Segment on F.Silkscreen
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.71 mm, 53.145 mm): Pad A1_B12 [GND] of J1 on L1 (Sig, PWR)
+    @(145.91 mm, 53.145 mm): Pad A4_B9 [VBUS] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.91 mm, 53.145 mm): Pad A4_B9 [VBUS] of J1 on L1 (Sig, PWR)
+    @(145.26 mm, 53.145 mm): Pad B8 [unconnected-(J1-SBU2-PadB8)] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.76 mm, 53.145 mm): Pad A5 [/Project Architecture/Section A - Title A/USB_CC1] of J1 on L1 (Sig, PWR)
+    @(145.26 mm, 53.145 mm): Pad B8 [unconnected-(J1-SBU2-PadB8)] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.76 mm, 53.145 mm): Pad A5 [/Project Architecture/Section A - Title A/USB_CC1] of J1 on L1 (Sig, PWR)
+    @(144.26 mm, 53.145 mm): Pad B7 [/Project Architecture/Section A - Title A/ESP32_USB_D-] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.76 mm, 53.145 mm): Pad A6 [/Project Architecture/Section A - Title A/ESP32_USB_D+] of J1 on L1 (Sig, PWR)
+    @(143.26 mm, 53.145 mm): Pad A7 [/Project Architecture/Section A - Title A/ESP32_USB_D-] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.76 mm, 53.145 mm): Pad A6 [/Project Architecture/Section A - Title A/ESP32_USB_D+] of J1 on L1 (Sig, PWR)
+    @(144.26 mm, 53.145 mm): Pad B7 [/Project Architecture/Section A - Title A/ESP32_USB_D-] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.26 mm, 53.145 mm): Pad A7 [/Project Architecture/Section A - Title A/ESP32_USB_D-] of J1 on L1 (Sig, PWR)
+    @(142.76 mm, 53.145 mm): Pad B6 [/Project Architecture/Section A - Title A/ESP32_USB_D+] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.26 mm, 53.145 mm): Pad A8 [unconnected-(J1-SBU1-PadA8)] of J1 on L1 (Sig, PWR)
+    @(141.76 mm, 53.145 mm): Pad B5 [/Project Architecture/Section A - Title A/USB_CC2] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.26 mm, 53.145 mm): Pad A8 [unconnected-(J1-SBU1-PadA8)] of J1 on L1 (Sig, PWR)
+    @(142.76 mm, 53.145 mm): Pad B6 [/Project Architecture/Section A - Title A/ESP32_USB_D+] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(140.31 mm, 53.145 mm): Pad B1_A12 [GND] of J1 on L1 (Sig, PWR)
+    @(141.11 mm, 53.145 mm): Pad B4_A9 [VBUS] of J1 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(141.11 mm, 53.145 mm): Pad B4_A9 [VBUS] of J1 on L1 (Sig, PWR)
+    @(141.76 mm, 53.145 mm): Pad B5 [/Project Architecture/Section A - Title A/USB_CC2] of J1 on L1 (Sig, PWR)
+
+** Found 0 unconnected pads **
+
+** Found 3 Footprint errors **
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (unconnected-(J1-VBUS-PadA4_B9)).
+    ; warning
+    @(145.91 mm, 53.145 mm): Pad A4_B9 [VBUS] of J1 on L1 (Sig, PWR)
+[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (unconnected-(J1-VBUS-PadA4_B9)).
+    ; warning
+    @(141.11 mm, 53.145 mm): Pad B4_A9 [VBUS] of J1 on L1 (Sig, PWR)
+[net_conflict]: Pad net (/Project Architecture/Section D - RTC/RTC_RST) doesn't match net given by schematic (unconnected-(U6-~{RST}-Pad4)).
+    ; warning
+    @(116.245 mm, 87.925 mm): Pad 4 [/Project Architecture/Section D - RTC/RTC_RST] of U6 on L1 (Sig, PWR)
+
+** End of Report **

@@ -56,7 +56,7 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY COMPANY.
+		HALOGEN FREE AND APPROVED BY COMPANY NAME.
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
@@ -64,17 +64,17 @@
 	BOARD THICKNESS		1.660 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)			0.200 mm
+	MIN. HOLE (PTH)			0.250 mm
 	MIN. HOLE (NPTH)		0.650 mm
 	ANNULAR RING			0.150 mm
-	COPPER TO HOLE		0.254 mm
+	COPPER TO HOLE		0.150 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm
 
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">ba5b21d</textvar>
+    <textvar name="GIT_HASH_PCB">df79936</textvar>
     <textvar name="GIT_HASH_SCH">5f6d398</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">LE_V2</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">18-May-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-05-18</textvar>
+    <textvar name="RELEASE_DATE">25-May-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-05-25</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -131,7 +131,7 @@
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">Section C - POWER</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -276,27 +276,104 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="9" name="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/">
+      <title_block>
+        <title>RTC</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rtc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
-    <comp ref="BT1">
-      <value>Battery_Cell</value>
-      <footprint>Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032</footprint>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
       <datasheet>~</datasheet>
-      <description>Single-cell battery</description>
+      <description>Mounting Hole with connection</description>
       <fields>
-        <field name="Footprint">Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Single-cell battery</field>
+        <field name="Description">Mounting Hole with connection</field>
       </fields>
-      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="battery cell"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>4a574b12-a4ed-4405-a0ed-058468462d41</tstamps>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>fbcfdaf3-2d18-45bc-a970-609134ad2656</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>23a05425-cd73-491c-818b-159167f2224d</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>d3521bad-8bfb-4d5d-9b2f-69d84a7ec213</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole with connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>26df5403-c765-4753-8212-d0d4cb72bc95</tstamps>
     </comp>
     <comp ref="C1">
-      <value>1u</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -314,7 +391,7 @@
       <tstamps>e10191bb-f2ca-4eab-aa69-0686e96b9941</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1u</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -332,7 +409,7 @@
       <tstamps>06baeba8-1484-4ec2-b240-79b035e34ebd</tstamps>
     </comp>
     <comp ref="C3">
-      <value>1u</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -350,7 +427,7 @@
       <tstamps>e7ac2a16-847d-450b-a639-a6f00959a976</tstamps>
     </comp>
     <comp ref="C4">
-      <value>0.1u</value>
+      <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -385,42 +462,6 @@
       <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>2479450b-79dd-451a-b33f-bb45b2c73097</tstamps>
     </comp>
-    <comp ref="C22">
-      <value>1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>1f3a188f-5b8e-4adf-9beb-cddf90664777</tstamps>
-    </comp>
-    <comp ref="C23">
-      <value>1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
-      <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>a82b7d81-b3d6-4204-a489-c503f01cbfea</tstamps>
-    </comp>
     <comp ref="D1">
       <value>WS2812B-2020</value>
       <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
@@ -438,82 +479,6 @@
       <property name="ki_fp_filters" value="LED*WS2812*-2020_PLCC4*"/>
       <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>6592140f-a9c4-4374-b628-92ab2ced49cb</tstamps>
-    </comp>
-    <comp ref="H1">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>fbcfdaf3-2d18-45bc-a970-609134ad2656</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>23a05425-cd73-491c-818b-159167f2224d</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>d3521bad-8bfb-4d5d-9b2f-69d84a7ec213</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
-      <datasheet>~</datasheet>
-      <description>Mounting Hole with connection</description>
-      <fields>
-        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Mounting Hole with connection</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="mounting hole"/>
-      <property name="ki_fp_filters" value="MountingHole*Pad*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>26df5403-c765-4753-8212-d0d4cb72bc95</tstamps>
     </comp>
     <comp ref="J1">
       <value>10155435-00011LF</value>
@@ -685,60 +650,6 @@
       <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>50dc389f-c779-42c2-82eb-e637c073e3bc</tstamps>
     </comp>
-    <comp ref="R9">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>a2f022c3-8773-4022-bfdd-f046c19097f1</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>ed1860d7-f1b6-4353-a3d3-853bc783ab3e</tstamps>
-    </comp>
-    <comp ref="R11">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>3e22b80c-2dde-48c4-8735-cf0188bb6d6a</tstamps>
-    </comp>
     <comp ref="S1">
       <value>EVQ-P2P02W</value>
       <footprint>EVQ-P2P02W:EVQP2P02W</footprint>
@@ -808,24 +719,6 @@
       <property name="ki_fp_filters" value="ESP32?S3?WROOM?2*"/>
       <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>1cf7f413-76c8-4f88-9231-80693edbfa62</tstamps>
-    </comp>
-    <comp ref="U6">
-      <value>DS3231MZ</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf</datasheet>
-      <description>±5ppm, I2C Real-Time Clock SOIC-8</description>
-      <fields>
-        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
-        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf</field>
-        <field name="Description">±5ppm, I2C Real-Time Clock SOIC-8</field>
-      </fields>
-      <libsource lib="Timer_RTC" part="DS3231MZ" description="±5ppm, I2C Real-Time Clock SOIC-8"/>
-      <property name="Sheetname" value="Section A - Title A"/>
-      <property name="Sheetfile" value="Section A - Title A.kicad_sch"/>
-      <property name="ki_keywords" value="RTC TCXO Realtime Time Clock MEMS I2C"/>
-      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
-      <sheetpath names="/Project Architecture/Section A - Title A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>26c673ec-c19e-4cc2-b1e9-eae7a164202e</tstamps>
     </comp>
     <comp ref="C6">
       <value>1u</value>
@@ -1216,7 +1109,7 @@
       <tstamps>e135968c-9b54-47fb-ae05-1a2c508f1939</tstamps>
     </comp>
     <comp ref="C15">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1234,7 +1127,7 @@
       <tstamps>1a110343-519a-4aeb-8474-5cdb1d0cdfa3</tstamps>
     </comp>
     <comp ref="C16">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1252,7 +1145,7 @@
       <tstamps>7d37e19e-3695-41b4-8cad-d6d845f8a027</tstamps>
     </comp>
     <comp ref="C17">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1270,7 +1163,7 @@
       <tstamps>3bce580d-7574-44bb-a0c5-3d0adae5633c</tstamps>
     </comp>
     <comp ref="C18">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1288,7 +1181,7 @@
       <tstamps>a128b6ae-3cd0-4004-aac4-f0e1068de42c</tstamps>
     </comp>
     <comp ref="C19">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1306,7 +1199,7 @@
       <tstamps>086ff135-1bb3-4055-938e-3c45fa059202</tstamps>
     </comp>
     <comp ref="C20">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1324,7 +1217,7 @@
       <tstamps>c6ed9c55-ec3e-43b5-b166-acbc9472f872</tstamps>
     </comp>
     <comp ref="C21">
-      <value>C</value>
+      <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
@@ -1391,7 +1284,7 @@
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="RFM-0505S" part="RFM-0505S" description=""/>
+      <libsource lib="" part="RFM-0505S_1" description=""/>
       <property name="MF" value="Recom Power"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="10mm"/>
       <property name="Package" value="SIP-4 Recom Power"/>
@@ -1477,8 +1370,160 @@
       <sheetpath names="/Project Architecture/Section C - POWER/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d5db1d1f-d222-4fda-804a-d3238065ee2f/"/>
       <tstamps>19241219-7930-4f14-96b7-853df3da6875</tstamps>
     </comp>
+    <comp ref="BT1">
+      <value>CR2032</value>
+      <footprint>Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032</footprint>
+      <datasheet>~</datasheet>
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Footprint">Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single-cell battery</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>4a574b12-a4ed-4405-a0ed-058468462d41</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>1f3a188f-5b8e-4adf-9beb-cddf90664777</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>a82b7d81-b3d6-4204-a489-c503f01cbfea</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>a2f022c3-8773-4022-bfdd-f046c19097f1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>ed1860d7-f1b6-4353-a3d3-853bc783ab3e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>3e22b80c-2dde-48c4-8735-cf0188bb6d6a</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>DS3231MZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf</datasheet>
+      <description>±5ppm, I2C Real-Time Clock SOIC-8</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf</field>
+        <field name="Description">±5ppm, I2C Real-Time Clock SOIC-8</field>
+      </fields>
+      <libsource lib="Timer_RTC" part="DS3231MZ" description="±5ppm, I2C Real-Time Clock SOIC-8"/>
+      <property name="Sheetname" value="Section D - RTC"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_keywords" value="RTC TCXO Realtime Time Clock MEMS I2C"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/Project Architecture/Section D - RTC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/12cbe2ae-1a8e-4c6b-9f7d-e3e3498aaf08/"/>
+      <tstamps>26c673ec-c19e-4cc2-b1e9-eae7a164202e</tstamps>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="" part="RFM-0505S_1">
+      <fields>
+        <field name="Reference">PS1</field>
+        <field name="Value">RFM-0505S</field>
+        <field name="Footprint">RFM-0505S:CONV_RFM-0505S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Recom Power</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10mm</field>
+        <field name="Package">SIP-4 Recom Power</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RFM-0505S/Recom+Power/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RFM-0505S/Recom+Power/view-part/?ref=snap</field>
+        <field name="MP">RFM-0505S</field>
+        <field name="Description_1">DC-DC Converter, SIP4, 1kV unreg, Single Output, 1W, 5V Out, RFM Series | RECOM Power Inc. RFM-0505S</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Recom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="input"/>
+        <pin num="2" name="+VIN" type="input"/>
+        <pin num="3" name="-VOUT" type="power_out"/>
+        <pin num="4" name="+VOUT" type="power_out"/>
+      </pins>
+    </libpart>
     <libpart lib="10155435-00011LF" part="10155435-00011LF">
       <fields>
         <field name="Reference">J</field>
@@ -1520,7 +1565,7 @@
     </libpart>
     <libpart lib="691313510002" part="691313510002">
       <fields>
-        <field name="Reference">J</field>
+        <field name="Reference">J4</field>
         <field name="Value">691313510002</field>
         <field name="Footprint">691313510002:691313510002</field>
         <field name="Datasheet"/>
@@ -1535,8 +1580,8 @@
         <field name="Check_prices">https://www.snapeda.com/parts/691313510002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
+        <pin num="1" name="" type="power_out"/>
+        <pin num="2" name="" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="691382010006" part="691382010006">
@@ -1610,14 +1655,14 @@
       <description>Single-cell battery</description>
       <docs>~</docs>
       <fields>
-        <field name="Reference">BT</field>
-        <field name="Value">Battery_Cell</field>
-        <field name="Footprint"/>
+        <field name="Reference">BT1</field>
+        <field name="Value">CR2032</field>
+        <field name="Footprint">Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032</field>
         <field name="Datasheet">~</field>
         <field name="Description">Single-cell battery</field>
       </fields>
       <pins>
-        <pin num="1" name="+" type="passive"/>
+        <pin num="1" name="+" type="power_out"/>
         <pin num="2" name="-" type="passive"/>
       </pins>
     </libpart>
@@ -1779,7 +1824,7 @@
     </libpart>
     <libpart lib="RFM-0505S" part="RFM-0505S">
       <fields>
-        <field name="Reference">PS</field>
+        <field name="Reference">PS2</field>
         <field name="Value">RFM-0505S</field>
         <field name="Footprint">RFM-0505S:CONV_RFM-0505S</field>
         <field name="Datasheet"/>
@@ -1800,8 +1845,8 @@
       <pins>
         <pin num="1" name="-VIN" type="input"/>
         <pin num="2" name="+VIN" type="input"/>
-        <pin num="3" name="-VOUT" type="output"/>
-        <pin num="4" name="+VOUT" type="output"/>
+        <pin num="3" name="-VOUT" type="power_out"/>
+        <pin num="4" name="+VOUT" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="RF_Module" part="ESP32-S3-WROOM-2">
@@ -1896,7 +1941,7 @@
     </libpart>
     <libpart lib="TLV1117LV33DCYT" part="TLV1117LV33DCYT">
       <fields>
-        <field name="Reference">U</field>
+        <field name="Reference">U5</field>
         <field name="Value">TLV1117LV33DCYT</field>
         <field name="Footprint">TLV1117LV33DCYT:SOT230P700X180-4N</field>
         <field name="Datasheet"/>
@@ -1912,9 +1957,9 @@
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="OUT" type="output"/>
+        <pin num="2" name="OUT" type="power_out"/>
         <pin num="3" name="IN" type="input"/>
-        <pin num="4" name="OUT-1" type="output"/>
+        <pin num="4" name="OUT-1" type="bidirectional"/>
       </pins>
     </libpart>
     <libpart lib="Timer_RTC" part="DS3231MZ">
@@ -1991,7 +2036,7 @@
   </libraries>
   <nets>
     <net code="1" name="+3V0" class="Default">
-      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="BT1" pin="1" pinfunction="+" pintype="power_out"/>
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="U6" pin="6" pinfunction="VBAT" pintype="power_in"/>
     </net>
@@ -2013,8 +2058,8 @@
       <node ref="U2" pin="20" pinfunction="VDD" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="VCC1" pintype="power_in"/>
       <node ref="U4" pin="1" pinfunction="VCC1" pintype="power_in"/>
-      <node ref="U5" pin="2" pinfunction="OUT" pintype="output"/>
-      <node ref="U5" pin="4" pinfunction="OUT-1" pintype="output"/>
+      <node ref="U5" pin="2" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U5" pin="4" pinfunction="OUT-1" pintype="bidirectional"/>
       <node ref="U6" pin="2" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="3" name="+5V" class="Default">
@@ -2025,7 +2070,7 @@
       <node ref="D1" pin="4" pinfunction="VDD" pintype="power_in"/>
       <node ref="J3" pin="1" pintype="passive"/>
       <node ref="J7" pin="1" pintype="passive"/>
-      <node ref="PS1" pin="4" pinfunction="+VOUT" pintype="output"/>
+      <node ref="PS1" pin="4" pinfunction="+VOUT" pintype="power_out"/>
       <node ref="PS2" pin="2" pinfunction="+VIN" pintype="input"/>
       <node ref="U5" pin="3" pinfunction="IN" pintype="input"/>
     </net>
@@ -2033,7 +2078,7 @@
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="power_out"/>
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="PS1" pin="2" pinfunction="+VIN" pintype="input"/>
       <node ref="U3" pin="8" pinfunction="VCC2" pintype="power_in"/>
@@ -2041,7 +2086,7 @@
     <net code="5" name="+5V_CAN2" class="Default">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="PS2" pin="4" pinfunction="+VOUT" pintype="output"/>
+      <node ref="PS2" pin="4" pinfunction="+VOUT" pintype="power_out"/>
       <node ref="U4" pin="8" pinfunction="VCC2" pintype="power_in"/>
     </net>
     <net code="6" name="/Project Architecture/Section A - Title A/CAN1_RX" class="Default">
@@ -2132,76 +2177,73 @@
       <node ref="J7" pin="6" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="IO5" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/Project Architecture/Section A - Title A/I2C_SCL" class="Default">
-      <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U1" pin="17" pinfunction="IO9" pintype="bidirectional"/>
-      <node ref="U6" pin="8" pinfunction="SCL" pintype="input"/>
-    </net>
-    <net code="27" name="/Project Architecture/Section A - Title A/I2C_SDA" class="Default">
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="U1" pin="12" pinfunction="IO8" pintype="bidirectional"/>
-      <node ref="U6" pin="7" pinfunction="SDA" pintype="bidirectional"/>
-    </net>
-    <net code="28" name="/Project Architecture/Section A - Title A/LED_DOUT" class="Default">
+    <net code="26" name="/Project Architecture/Section A - Title A/LED_DOUT" class="Default">
       <node ref="D1" pin="3" pinfunction="DIN" pintype="input"/>
       <node ref="U1" pin="39" pinfunction="IO1" pintype="bidirectional"/>
     </net>
-    <net code="29" name="/Project Architecture/Section A - Title A/RTC_INT" class="Default">
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="U6" pin="3" pinfunction="~{INT}/SQW" pintype="open_collector"/>
-    </net>
-    <net code="30" name="/Project Architecture/Section A - Title A/RTC_RST" class="Default">
-      <node ref="U6" pin="4" pinfunction="~{RST}" pintype="bidirectional"/>
-    </net>
-    <net code="31" name="/Project Architecture/Section A - Title A/USB_CC1" class="Default">
+    <net code="27" name="/Project Architecture/Section A - Title A/USB_CC1" class="Default">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="/Project Architecture/Section A - Title A/USB_CC2" class="Default">
+    <net code="28" name="/Project Architecture/Section A - Title A/USB_CC2" class="Default">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="/Project Architecture/Section B - Title B/CAN1_H" class="Default">
+    <net code="29" name="/Project Architecture/Section B - Title B/CAN1_H" class="Default">
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/Project Architecture/Section B - Title B/CAN1_L" class="Default">
+    <net code="30" name="/Project Architecture/Section B - Title B/CAN1_L" class="Default">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/Project Architecture/Section B - Title B/CAN2_H" class="Default">
+    <net code="31" name="/Project Architecture/Section B - Title B/CAN2_H" class="Default">
       <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U4" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/Project Architecture/Section B - Title B/CAN2_L" class="Default">
+    <net code="32" name="/Project Architecture/Section B - Title B/CAN2_L" class="Default">
       <node ref="J5" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/Project Architecture/Section B - Title B/CAN2_RX" class="Default">
+    <net code="33" name="/Project Architecture/Section B - Title B/CAN2_RX" class="Default">
       <node ref="U2" pin="2" pinfunction="RXCAN" pintype="input"/>
       <node ref="U4" pin="2" pinfunction="RXD" pintype="output"/>
     </net>
-    <net code="38" name="/Project Architecture/Section B - Title B/CAN2_TX" class="Default">
+    <net code="34" name="/Project Architecture/Section B - Title B/CAN2_TX" class="Default">
       <node ref="U2" pin="1" pinfunction="TXCAN" pintype="output"/>
       <node ref="U4" pin="3" pinfunction="TXD" pintype="input"/>
     </net>
-    <net code="39" name="/Project Architecture/Section B - Title B/CAN_OSC1" class="Default">
+    <net code="35" name="/Project Architecture/Section B - Title B/CAN_OSC1" class="Default">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="OSC1" pintype="input"/>
       <node ref="Y1" pin="1" pinfunction="XTAL_1" pintype="passive"/>
     </net>
-    <net code="40" name="/Project Architecture/Section B - Title B/CAN_OSC2" class="Default">
+    <net code="36" name="/Project Architecture/Section B - Title B/CAN_OSC2" class="Default">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="OSC2" pintype="output"/>
       <node ref="Y1" pin="3" pinfunction="XTAL_2" pintype="passive"/>
     </net>
-    <net code="41" name="GND" class="Default">
+    <net code="37" name="/Project Architecture/Section D - RTC/I2C_SCL" class="Default">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="IO9" pintype="bidirectional"/>
+      <node ref="U6" pin="8" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="38" name="/Project Architecture/Section D - RTC/I2C_SDA" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IO8" pintype="bidirectional"/>
+      <node ref="U6" pin="7" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/Project Architecture/Section D - RTC/RTC_INT" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="~{INT}/SQW" pintype="open_collector"/>
+    </net>
+    <net code="40" name="GND" class="Default">
       <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -2229,7 +2271,7 @@
       <node ref="J1" pin="SH4" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J3" pin="2" pintype="passive"/>
       <node ref="J7" pin="2" pintype="passive"/>
-      <node ref="PS1" pin="3" pinfunction="-VOUT" pintype="output"/>
+      <node ref="PS1" pin="3" pinfunction="-VOUT" pintype="power_out"/>
       <node ref="PS2" pin="1" pinfunction="-VIN" pintype="input"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
@@ -2250,144 +2292,147 @@
       <node ref="Y1" pin="2" pinfunction="GND_1" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="GND_2" pintype="passive"/>
     </net>
-    <net code="42" name="GND_CAN1" class="Default">
+    <net code="41" name="GND_CAN1" class="Default">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C15" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="power_out"/>
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="PS1" pin="1" pinfunction="-VIN" pintype="input"/>
       <node ref="U3" pin="5" pinfunction="GND2" pintype="power_in"/>
     </net>
-    <net code="43" name="GND_CAN2" class="Default">
+    <net code="42" name="GND_CAN2" class="Default">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J5" pin="SH1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J5" pin="SH2" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="PS2" pin="3" pinfunction="-VOUT" pintype="output"/>
+      <node ref="PS2" pin="3" pinfunction="-VOUT" pintype="power_out"/>
       <node ref="U4" pin="5" pinfunction="GND2" pintype="power_in"/>
     </net>
-    <net code="44" name="Net-(C9-Pad1)" class="Default">
+    <net code="43" name="Net-(C9-Pad1)" class="Default">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(C10-Pad1)" class="Default">
+    <net code="44" name="Net-(C10-Pad1)" class="Default">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="VBUS" class="Default">
-      <node ref="J1" pin="A4_B9" pinfunction="VBUS" pintype="power_in"/>
-      <node ref="J1" pin="B4_A9" pinfunction="VBUS" pintype="power_in"/>
-    </net>
-    <net code="47" name="unconnected-(D1-DOUT-Pad1)" class="Default">
+    <net code="45" name="unconnected-(D1-DOUT-Pad1)" class="Default">
       <node ref="D1" pin="1" pinfunction="DOUT" pintype="output+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(H1-Pad1)" class="Default">
+    <net code="46" name="unconnected-(H1-Pad1)" class="Default">
       <node ref="H1" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(H2-Pad1)" class="Default">
+    <net code="47" name="unconnected-(H2-Pad1)" class="Default">
       <node ref="H2" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(H3-Pad1)" class="Default">
+    <net code="48" name="unconnected-(H3-Pad1)" class="Default">
       <node ref="H3" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(H4-Pad1)" class="Default">
+    <net code="49" name="unconnected-(H4-Pad1)" class="Default">
       <node ref="H4" pin="1" pinfunction="1" pintype="input+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+    <net code="50" name="unconnected-(J1-SBU1-PadA8)" class="Default">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+    <net code="51" name="unconnected-(J1-SBU2-PadB8)" class="Default">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(J5-Pad1)" class="Default">
+    <net code="52" name="unconnected-(J1-VBUS-PadA4_B9)" class="Default">
+      <node ref="J1" pin="A4_B9" pinfunction="VBUS" pintype="power_in+no_connect"/>
+      <node ref="J1" pin="B4_A9" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J5-Pad1)" class="Default">
       <node ref="J5" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(J5-Pad2)" class="Default">
+    <net code="54" name="unconnected-(J5-Pad2)" class="Default">
       <node ref="J5" pin="2" pinfunction="2" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(J5-Pad4)" class="Default">
+    <net code="55" name="unconnected-(J5-Pad4)" class="Default">
       <node ref="J5" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(J5-Pad5)" class="Default">
+    <net code="56" name="unconnected-(J5-Pad5)" class="Default">
       <node ref="J5" pin="5" pinfunction="5" pintype="passive+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(J5-Pad6)" class="Default">
+    <net code="57" name="unconnected-(J5-Pad6)" class="Default">
       <node ref="J5" pin="6" pinfunction="6" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U1-IO3-Pad15)" class="Default">
-      <node ref="U1" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+    <net code="58" name="unconnected-(U1-IO3-Pad15)" class="Default">
+      <node ref="U1" pin="15" pinfunction="IO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U1-IO4-Pad4)" class="Default">
-      <node ref="U1" pin="4" pinfunction="IO4" pintype="bidirectional"/>
+    <net code="59" name="unconnected-(U1-IO4-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="IO4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U1-IO16-Pad9)" class="Default">
-      <node ref="U1" pin="9" pinfunction="IO16" pintype="bidirectional"/>
+    <net code="60" name="unconnected-(U1-IO16-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="IO16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U1-IO17-Pad10)" class="Default">
-      <node ref="U1" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    <net code="61" name="unconnected-(U1-IO17-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="IO17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="63" name="unconnected-(U1-IO18-Pad11)" class="Default">
-      <node ref="U1" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    <net code="62" name="unconnected-(U1-IO18-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="IO18" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="64" name="unconnected-(U1-IO38-Pad31)" class="Default">
-      <node ref="U1" pin="31" pinfunction="IO38" pintype="bidirectional"/>
+    <net code="63" name="unconnected-(U1-IO38-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="IO38" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U1-IO45-Pad26)" class="Default">
-      <node ref="U1" pin="26" pinfunction="IO45" pintype="bidirectional"/>
+    <net code="64" name="unconnected-(U1-IO45-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="IO45" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U1-IO46-Pad16)" class="Default">
-      <node ref="U1" pin="16" pinfunction="IO46" pintype="bidirectional"/>
+    <net code="65" name="unconnected-(U1-IO46-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="IO46" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U1-MTCK/IO39-Pad32)" class="Default">
-      <node ref="U1" pin="32" pinfunction="MTCK/IO39" pintype="bidirectional"/>
+    <net code="66" name="unconnected-(U1-MTCK/IO39-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="MTCK/IO39" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(U1-MTDI/IO41-Pad34)" class="Default">
-      <node ref="U1" pin="34" pinfunction="MTDI/IO41" pintype="bidirectional"/>
+    <net code="67" name="unconnected-(U1-MTDI/IO41-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="MTDI/IO41" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U1-MTDO/IO40-Pad33)" class="Default">
-      <node ref="U1" pin="33" pinfunction="MTDO/IO40" pintype="bidirectional"/>
+    <net code="68" name="unconnected-(U1-MTDO/IO40-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="MTDO/IO40" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U1-NC-Pad28)" class="Default">
+    <net code="69" name="unconnected-(U1-NC-Pad28)" class="Default">
       <node ref="U1" pin="28" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U1-NC-Pad29)" class="Default">
+    <net code="70" name="unconnected-(U1-NC-Pad29)" class="Default">
       <node ref="U1" pin="29" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U1-NC-Pad30)" class="Default">
+    <net code="71" name="unconnected-(U1-NC-Pad30)" class="Default">
       <node ref="U1" pin="30" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U2-CLKOUT/SOF-Pad3)" class="Default">
+    <net code="72" name="unconnected-(U2-CLKOUT/SOF-Pad3)" class="Default">
       <node ref="U2" pin="3" pinfunction="CLKOUT/SOF" pintype="output+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U2-NC-Pad6)" class="Default">
+    <net code="73" name="unconnected-(U2-NC-Pad6)" class="Default">
       <node ref="U2" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U2-NC-Pad15)" class="Default">
+    <net code="74" name="unconnected-(U2-NC-Pad15)" class="Default">
       <node ref="U2" pin="15" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U2-~{RX0BF}-Pad12)" class="Default">
+    <net code="75" name="unconnected-(U2-~{RX0BF}-Pad12)" class="Default">
       <node ref="U2" pin="12" pinfunction="~{RX0BF}" pintype="output+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U2-~{RX1BF}-Pad11)" class="Default">
+    <net code="76" name="unconnected-(U2-~{RX1BF}-Pad11)" class="Default">
       <node ref="U2" pin="11" pinfunction="~{RX1BF}" pintype="output+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U2-~{TX0RTS}-Pad4)" class="Default">
+    <net code="77" name="unconnected-(U2-~{TX0RTS}-Pad4)" class="Default">
       <node ref="U2" pin="4" pinfunction="~{TX0RTS}" pintype="input+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U2-~{TX1RTS}-Pad5)" class="Default">
+    <net code="78" name="unconnected-(U2-~{TX1RTS}-Pad5)" class="Default">
       <node ref="U2" pin="5" pinfunction="~{TX1RTS}" pintype="input+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U2-~{TX2RTS}-Pad7)" class="Default">
+    <net code="79" name="unconnected-(U2-~{TX2RTS}-Pad7)" class="Default">
       <node ref="U2" pin="7" pinfunction="~{TX2RTS}" pintype="input+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U6-32KHZ-Pad1)" class="Default">
+    <net code="80" name="unconnected-(U6-32KHZ-Pad1)" class="Default">
       <node ref="U6" pin="1" pinfunction="32KHZ" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U6-~{RST}-Pad4)" class="Default">
+      <node ref="U6" pin="4" pinfunction="~{RST}" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
