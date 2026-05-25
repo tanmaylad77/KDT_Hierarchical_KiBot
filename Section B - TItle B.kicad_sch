@@ -2381,14 +2381,14 @@
 		)
 		(uuid "524c500e-48b2-4d74-9c30-5c34bf6c2558")
 	)
-	(text_box "Block Description"
+	(text_box "CAN1 - Native ESP32"
 		(exclude_from_sim no)
 		(at 129.54 80.01 0)
 		(size 167.64 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2405,14 +2405,14 @@
 		)
 		(uuid "642b7841-14e5-4f8c-834a-36032a537fcd")
 	)
-	(text_box "Block Description"
+	(text_box "CAN2 - Aux. CAN for Victron"
 		(exclude_from_sim no)
 		(at 129.54 133.35 0)
 		(size 167.64 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2429,14 +2429,14 @@
 		)
 		(uuid "96ca24d3-fb87-492b-b46b-2ff8e6f8597a")
 	)
-	(text_box "Block Description"
+	(text_box "Crystal for CAN"
 		(exclude_from_sim no)
 		(at 238.76 218.44 0)
 		(size 58.42 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2453,14 +2453,14 @@
 		)
 		(uuid "9cf3d12e-f9c3-4c34-8081-b16b6bc5d5dd")
 	)
-	(text_box "Block Description"
+	(text_box "SPI CAN Interface"
 		(exclude_from_sim no)
 		(at 129.54 218.44 0)
 		(size 99.06 9.525)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
