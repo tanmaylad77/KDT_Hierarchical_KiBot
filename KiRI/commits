@@ -1,4 +1,4 @@
 _local_|2026-05-25|root|Local changes not committed|False|True
+84c2d8c|2026-05-25|Tanmay Lad|Added pulldowns on GPIOs|True|True
 8e27053|2026-05-25|Tanmay Lad|Increased Via Sizes to 0.3/0.6|False|True
 df79936|2026-05-25|Tanmay Lad|Retry with rules DRC ERC passing|True|True
-7542018|2026-05-25|Tanmay Lad|Final Changes, Updated to Checked|True|True

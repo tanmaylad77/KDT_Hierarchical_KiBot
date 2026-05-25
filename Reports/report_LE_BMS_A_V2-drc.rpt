@@ -1,7 +1,7 @@
 ** Drc report for LE_BMS_A_V2.kicad_pcb **
-** Created on 2026-05-25T12:52:15+0000 **
+** Created on 2026-05-25T13:13:04+0000 **
 
-** Found 87 DRC violations **
+** Found 95 DRC violations **
 [silk_edge_clearance]: Silkscreen clipped by board edge
     ; warning
     @(193.15 mm, 122.61 mm): Segment on Edge.Cuts
@@ -186,12 +186,18 @@
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(186.25 mm, 113.61 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(183.4375 mm, 80.35 mm): Footprint R18
 [lib_footprint_mismatch]: Footprint 'JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal' does not match copy in library 'Connector_JST'.
     ; warning
     @(171.3 mm, 120.2 mm): Footprint J6
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(117.945 mm, 83.925 mm): Footprint R11
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(183.2875 mm, 61.16 mm): Footprint R14
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(145.75 mm, 89.975 mm): Footprint C13
@@ -201,6 +207,9 @@
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(175.0375 mm, 105.31 mm): Footprint C15
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(183.2875 mm, 66.18 mm): Footprint R12
 [lib_footprint_mismatch]: Footprint 'ESP32-S3-WROOM-2' does not match copy in library 'RF_Module'.
     ; warning
     @(162.86 mm, 59.36 mm): Footprint U1
@@ -218,13 +227,22 @@
     @(122.255 mm, 96.525 mm): Footprint R10
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
+    @(183.2875 mm, 63.67 mm): Footprint R13
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
     @(186.25 mm, 115.21 mm): Footprint R6
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
     @(132.575 mm, 57.85 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(183.2875 mm, 58.65 mm): Footprint R15
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(162.95 mm, 109.61 mm): Footprint C11
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(183.4375 mm, 82.86 mm): Footprint R17
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(145.65 mm, 116.61 mm): Footprint C10
@@ -240,6 +258,9 @@
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(151.876802 mm, 54.8 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(183.4375 mm, 77.84 mm): Footprint R19
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
     @(138.85 mm, 104.61 mm): Footprint C20
@@ -257,6 +278,9 @@
     @(167.075 mm, 87.7 mm): Footprint C21
 [lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
     ; warning
+    @(183.4375 mm, 85.37 mm): Footprint R16
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric_Pad0.98x0.95mm_HandSolder' does not match copy in library 'Resistor_SMD'.
+    ; warning
     @(122.255 mm, 94.925 mm): Footprint R9
 [lib_footprint_mismatch]: Footprint 'C_0603_1608Metric_Pad1.08x0.95mm_HandSolder' does not match copy in library 'Capacitor_SMD'.
     ; warning
@@ -267,10 +291,10 @@
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     ; warning
     @(146.71 mm, 53.145 mm): Pad A1_B12 [GND] of J1 on L1 (Sig, PWR)
-    @(145.91 mm, 53.145 mm): Pad A4_B9 [VBUS] of J1 on L1 (Sig, PWR)
+    @(145.91 mm, 53.145 mm): Pad A4_B9 [unconnected-(J1-VBUS-PadA4_B9)] of J1 on L1 (Sig, PWR)
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     ; warning
-    @(145.91 mm, 53.145 mm): Pad A4_B9 [VBUS] of J1 on L1 (Sig, PWR)
+    @(145.91 mm, 53.145 mm): Pad A4_B9 [unconnected-(J1-VBUS-PadA4_B9)] of J1 on L1 (Sig, PWR)
     @(145.26 mm, 53.145 mm): Pad B8 [unconnected-(J1-SBU2-PadB8)] of J1 on L1 (Sig, PWR)
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     ; warning
@@ -303,23 +327,14 @@
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     ; warning
     @(140.31 mm, 53.145 mm): Pad B1_A12 [GND] of J1 on L1 (Sig, PWR)
-    @(141.11 mm, 53.145 mm): Pad B4_A9 [VBUS] of J1 on L1 (Sig, PWR)
+    @(141.11 mm, 53.145 mm): Pad B4_A9 [unconnected-(J1-VBUS-PadA4_B9)_1] of J1 on L1 (Sig, PWR)
 [solder_mask_bridge]: Front solder mask aperture bridges items with different nets
     ; warning
-    @(141.11 mm, 53.145 mm): Pad B4_A9 [VBUS] of J1 on L1 (Sig, PWR)
+    @(141.11 mm, 53.145 mm): Pad B4_A9 [unconnected-(J1-VBUS-PadA4_B9)_1] of J1 on L1 (Sig, PWR)
     @(141.76 mm, 53.145 mm): Pad B5 [/Project Architecture/Section A - Title A/USB_CC2] of J1 on L1 (Sig, PWR)
 
 ** Found 0 unconnected pads **
 
-** Found 3 Footprint errors **
-[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (unconnected-(J1-VBUS-PadA4_B9)).
-    ; warning
-    @(145.91 mm, 53.145 mm): Pad A4_B9 [VBUS] of J1 on L1 (Sig, PWR)
-[net_conflict]: Pad net (VBUS) doesn't match net given by schematic (unconnected-(J1-VBUS-PadA4_B9)).
-    ; warning
-    @(141.11 mm, 53.145 mm): Pad B4_A9 [VBUS] of J1 on L1 (Sig, PWR)
-[net_conflict]: Pad net (/Project Architecture/Section D - RTC/RTC_RST) doesn't match net given by schematic (unconnected-(U6-~{RST}-Pad4)).
-    ; warning
-    @(116.245 mm, 87.925 mm): Pad 4 [/Project Architecture/Section D - RTC/RTC_RST] of U6 on L1 (Sig, PWR)
+** Found 0 Footprint errors **
 
 ** End of Report **
