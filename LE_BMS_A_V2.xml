@@ -64,7 +64,7 @@
 	BOARD THICKNESS		1.660 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (PTH)			0.300 mm
 	MIN. HOLE (NPTH)		0.650 mm
 	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.150 mm
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">df79936</textvar>
+    <textvar name="GIT_HASH_PCB">8e27053</textvar>
     <textvar name="GIT_HASH_SCH">5f6d398</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">LE_V2</textvar>
@@ -130,7 +130,7 @@
     <textvar name="SHEET_NAME_6">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">Section C - POWER</textvar>
-    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="SHEET_NAME_9">Section D - RTC</textvar>
     <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
